@@ -1,0 +1,14 @@
+// 사이즈 px을 rem으로 변경
+
+$rem-size: .0625rem; // 비율설정
+@function size($n) {
+    @return $n * $rem-size;
+}
+
+// 사용방법:
+//
+// font-size: fz(사이즈입력);
+
+// 예:
+// font-size: fz(12) !important;
+// 설명: 사이즈 12px크기가 rem단위로 변경된다.

@@ -1,0 +1,45 @@
+/*
+ * ============
+ * 기본 웹폰트설정
+ * ============
+ */
+
+@import "fonts-nanum";
+@import "fonts-poppins";
+$font: 'Poppins', 'Nanum Barun Gothic', sans-serif;
+// $font: 'Poppins', 'Nanum Barun Gothic',-apple-system,BlinkMacSystemFont, sans-serif;
+
+/*
+ * ============
+ * 사이즈 rem단위로 바꿈
+ * ============
+ */
+
+@import "sizes-settings";
+// font-size: fz(12) !important;
+// 설명: 사이즈 12px크기가 rem단위로 변경된다.
+// ------------------------------------------
+
+
+/*
+ * ============
+ * Style 기본설정
+ * ============
+ */
+
+
+html,body {
+  font-family: $font;
+}
+h1,h2,h3,h4,h5,h6 {
+  // font-family: $font;
+}
+h1 {
+  font-size: size(12) !important;
+  height: size(50);
+  margin: size(80);
+  background: #000;
+}
+
+
+/* ------ Normalize ----- */
